@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
+import Home from '@/components/Home'
+import Details from '@/components/Details'
+import Photos from '@/components/Photos'
+import Registry from '@/components/Registry'
+import RSVP from '@/components/RSVP'
 
 Vue.use(Router)
 
@@ -8,8 +12,28 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello
+      name: 'Home',
+      component: Home
+    },
+    {
+      path: '/details',
+      name: 'Details',
+      component: Details
+    },
+    {
+      path: '/photos',
+      name: 'Photos',
+      component: Photos
+    },
+    {
+      path: '/registry',
+      name: 'Registry',
+      component: Registry
+    },
+    {
+      path: '/rsvp',
+      name: 'RSVP',
+      component: RSVP
     }
   ]
 })
