@@ -3,9 +3,6 @@
     <div class='header-image ui segment'></div>
     <div class='ui stackable menu'>
       <router-link to='/' class='item'>
-        Home
-      </router-link>
-      <router-link to='/details' class='item'>
         Details
       </router-link>
       <router-link to='/photos' class='item'>
@@ -14,9 +11,9 @@
       <router-link to='/registry' class='item'>
         Registry
       </router-link>
-      <router-link to='/rsvp' class='item'>
+      <a href='http://ktori.rsvpify.com' target='_blank' class='item'>
         RSVP
-      </router-link>
+      </a>
     </div>
   </div>
 </template>
