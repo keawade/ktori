@@ -1,7 +1,9 @@
 <template>
-  <div id="app">
+  <div id="app" class='ui container'>
     <site-header></site-header>
-    <router-view></router-view>
+    <div class='ui segment'>
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
@@ -16,5 +18,17 @@ export default {
 }
 </script>
 
-<style>
+<style lang='scss'>
+  body {
+    background-image: url('/static/ktori_bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    .ui.container {
+      background-color: rgba(255, 255, 255, 0.3);
+      padding: 1rem 1rem 1rem;
+      min-height: 100%;
+    }
+  }
 </style>

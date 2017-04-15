@@ -1,5 +1,8 @@
 <template>
-  <div>Home</div>
+  <div>
+    <h1>Keith and Victoria</h1>
+    <h3>September 3, 2017 - Westminster, CO</h3>
+  </div>
 </template>
 
 <script>
