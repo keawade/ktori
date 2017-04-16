@@ -6,8 +6,8 @@
     <div class='ui hidden divider'></div>
     <div>Thank you for taking the time to check out our website! We are excited to see all of you at our wedding! - Keith and Tori</div>
     <div class='ui hidden divider'></div>
-    <div class='ui hidden divider'></div>
-    <h2>Butterfly Pavilion</h2>
+    <h3>Ceremony and Reception to be held at</h3>
+    <h2>The Butterfly Pavilion</h2>
     <h4>6252 W 104th Ave, Westminster, CO 80020</h4>
     <div class='ui hidden divider'></div>
     <a class='ui button' href='http://ktori.rsvpify.com' target='_blank'>RSVP</a>
