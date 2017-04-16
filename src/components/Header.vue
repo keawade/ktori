@@ -25,7 +25,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang='scss' scoped>
   .header-image {
     height: 15vh;
     background-image: url('/static/ktori_header.jpg');

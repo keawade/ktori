@@ -1,7 +1,11 @@
 <template>
   <div>
-    <div><a href='https://www.amazon.com/wedding/victoria-leddy-keith-wade-westminster-september-2017/registry/LEJ15O76FV43'>Amazon Registry</a></div>
-    <div><a href='https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=544498001&wcref=yes&wcsid=554511469'>Bed Bath & Beyond Registry</a></div>
+    <h2>
+      <a href='https://www.amazon.com/wedding/victoria-leddy-keith-wade-westminster-september-2017/registry/LEJ15O76FV43'>Amazon Wedding Registry</a>
+    </h2>
+    <h2>
+      <a href='https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=544498001&wcref=yes&wcsid=554511469'>Bed Bath & Beyond Wedding Registry</a>
+    </h2>
   </div>
 </template>
 
@@ -12,5 +16,5 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang='scss' scoped>
 </style>
